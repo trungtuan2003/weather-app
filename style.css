@@ -20,6 +20,7 @@ body {
     text-align: center;
 }
 
+
 #input {
     width: 100%;
     display: flex;
@@ -50,6 +51,10 @@ body {
 
 #input__btn img{
     width: 16px;
+}
+
+.weather {
+    display: none;
 }
 
 .weather__icon {
@@ -89,4 +94,9 @@ body {
 .wind {
     font-size: 28px;
     margin-top: -6px;
+}
+
+.errMsg {
+    display: none;
+    margin-top: 20px;
 }
